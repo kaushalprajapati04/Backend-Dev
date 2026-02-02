@@ -20,7 +20,10 @@ async function syncDirectories(sourceDir, targetDir) {
             }
         }
         console.log("\nDirectory synchronization completed.");
+<<<<<<< HEAD
         
+=======
+>>>>>>> d683ac22cc485eac8ef0af791b51f9534b9b2955
     } catch (err) {
         console.error("Sync Failed:", err.message);
     }
